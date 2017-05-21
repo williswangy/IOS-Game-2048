@@ -13,7 +13,7 @@ Since it is a *derivative* of the original 2048, it is not the *same*. More expl
 
 ## The Technology
 
-This version of 2048 is built using SpriteKit, the new 2-D game engine Apple introduced to iOS 7. As a result, it requires iOS 7 to run. On the other hand, this app has the following two great properties:
+This version of 2048 is built using SpriteKit.On the other hand, this app has the following two great properties:
 
 * It does not rely on *any* third-party library. Not that Cocos-2D is not great, but the fact it's using SpriteKit means that it does not have any dependencies.
 * It does not have any images. That's right. The entire UI is done either via UIKit, or by Core Graphics. Check out the related files to see how that is done, if you are curious.
