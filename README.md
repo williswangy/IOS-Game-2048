@@ -4,7 +4,7 @@ What is 2048 game ??
 2048 is played on a gray 4×4 grid, with numbered tiles that slide smoothly when a player moves them using the four arrow keys. Every turn, a new tile will randomly appear in an empty spot on the board with a value of either 2 or 4.Tiles slide as far as possible in the chosen direction until they are stopped by either another tile or the edge of the grid. If two tiles of the same number collide while moving, they will merge into a tile with the total value of the two tiles that collided.The resulting tile cannot merge with another tile again in the same move. Higher-scoring tiles emit a soft glow.
 A scoreboard on the upper-right keeps track of the user's score. The user's score starts at zero, and is incremented whenever two tiles combine, by the value of the new tile.As with many arcade games, the user's best score is shown alongside the current score.
 The game is won when a tile with a value of 2048 appears on the board, hence the name of the game. After reaching the 2048 tile, players can continue to play (beyond the 2048 tile) to reach higher scores.When the player has no legal moves (there are no empty spaces and no adjacent tiles with the same value), the game ends.
-##
+## GAME
 Since it is a *derivative* of the original 2048, it is not the *same*. More explicitly, it has the following additions:
 
 * **Three board sizes**: 3x3, 4x4 and 5x5. The smaller the board is, the fewer cells you have, and the harder the game is.* 
@@ -18,4 +18,4 @@ This version of 2048 is built using SpriteKit, the new 2-D game engine Apple int
 * It does not rely on *any* third-party library. Not that Cocos-2D is not great, but the fact it's using SpriteKit means that it does not have any dependencies.
 * It does not have any images. That's right. The entire UI is done either via UIKit, or by Core Graphics. Check out the related files to see how that is done, if you are curious.
 
-You should be able to download the source, and build and run without problem. However, please note that you may not want to run it in the simulator unless you don't have an Apple Developer account. SpriteKit does use OpenGL, and simulating that using CPU will cause your computer to take off.
+
